@@ -1,0 +1,8 @@
+type Query {
+  session: Session!
+}
+
+type Session {
+  id: ID!
+  token: String!
+}
