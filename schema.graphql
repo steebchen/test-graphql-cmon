@@ -1,3 +1,7 @@
 type Query {
-  testasdf: String
+  testasdf: TestAsdf
+}
+
+type TestAsdf {
+  lol: String
 }
